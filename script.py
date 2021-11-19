@@ -13,8 +13,7 @@ price = []
 def createLists(lines):
     for x in lines:
         if '["price"]' in x:
-            price.append(x.translate(
-                {ord(i): None for i in 'gtm_categories[]""price;'}))
+            price.append(x.replace('gtm_categories', '').replace('["price"]',''))
         elif '["name"]' in x:
             names.append(x)
         else:
