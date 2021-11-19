@@ -1,8 +1,6 @@
 import urllib.request
 
 url = 'https://www.liveaquaria.com/divers-den/category/3/marine-fish'
-
-
 r = urllib.request.urlopen(url)
 
 text = r.read()
@@ -11,17 +9,19 @@ lines = text.decode("utf-8").split('\n')
 names = []
 price = []
 
-createLists(lines)
-
 
 def createLists(lines):
     for x in lines:
-        match x:
-            case '["price"]' in lines:
-                names.append(x)
-            case '["name"]' in lines:
-                price.append(x)
+        if '["price"]' in x:
+            price.append(x.translate(
+                {ord(i): None for i in 'gtm_categories[]""price;'}))
+        elif '["name"]' in x:
+            names.append(x)
+        else:
+            pass
 
+
+createLists(lines)
 
 for x in price:
-    print("{names}\n")
+    print(f"{x}\n")
