@@ -1,15 +1,17 @@
-import urllib.request
-import createList as cl
+'''Runs program'''
 
-url = 'https://www.liveaquaria.com/divers-den/category/3/marine-fish'
-r = urllib.request.urlopen(url)
-text = r.read()
+import urllib.request
+import create_list as cl
+
+URL = 'https://www.liveaquaria.com/divers-den/category/3/marine-fish'
+with urllib.request.urlopen(URL) as r:
+    text = r.read()
 
 lines = text.decode("utf-8").split('\n')
-names = cl.createLists(lines,"name")
-price = cl.createLists(lines,"price")
+names = cl.create_lists(lines,"name")
+price = cl.create_lists(lines,"price")
 
 
-for i in range(len(price)):
+for i, x in enumerate(price):
     print(names[i])
     print(price[i])
