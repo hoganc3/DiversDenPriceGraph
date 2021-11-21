@@ -1,11 +1,10 @@
 '''Runs program'''
 
 import urllib.request
-import create_list as cl
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import create_list as cl
 
 URL = 'https://www.liveaquaria.com/divers-den/category/3/marine-fish'
 with urllib.request.urlopen(URL) as r:
