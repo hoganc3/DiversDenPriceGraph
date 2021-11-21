@@ -1,3 +1,6 @@
 # Divers Den Price Graph
-pandas
-matplotlib
+### Displays a graph of animals for sale.
+
+## Uses
+- pandas
+- matplotlib
