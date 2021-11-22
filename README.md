@@ -12,3 +12,5 @@
 `> python main.py`
 
 ![prompt](./_images/demoPrompt.png)
+![list](./_images/demoData.png)
+![graph](./_images/demoGraph.png)
