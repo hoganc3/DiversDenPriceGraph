@@ -7,6 +7,3 @@
 - urllib
 - pandas
 - matplotlib
-
-## Demo
-`> python main.py`
