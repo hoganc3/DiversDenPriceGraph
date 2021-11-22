@@ -1,5 +1,5 @@
 # Divers Den Price Graph
-![code style: pep8][https://img.shields.io/badge/code%20style-pep8-blue]
+![code style: pep8](https://img.shields.io/badge/code%20style-pep8-blue)
 ### Displays a graph of animals currently for sale in the Live Aquaria Diver's Den
 
 ## Prerequisites
