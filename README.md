@@ -11,4 +11,4 @@
 ## Demo
 `> python main.py`
 
-![prompt](.\_images\demoPrompt.png)
+![prompt](./_images/demoPrompt.png)
