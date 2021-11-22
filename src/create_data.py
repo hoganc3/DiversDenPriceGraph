@@ -7,7 +7,6 @@ def get_data(url):
     :URL: The url to scrape
     :return: list of page source seperated by line
     '''
-
     with urllib.request.urlopen(url) as file:
         text = file.read()
     return text.decode("utf-8").split('\n')
