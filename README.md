@@ -8,5 +8,7 @@
 - pandas
 - matplotlib
 
-## Usage
+## Demo
 `> python main.py`
+
+![prompt](.\_images\demoPrompt.png)
