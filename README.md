@@ -1,6 +1,12 @@
 # Divers Den Price Graph
-### Displays a graph of animals for sale in the Live Aquaria Diver's Den
+![code style: pep8][https://img.shields.io/badge/code%20style-pep8-blue]
+### Displays a graph of animals currently for sale in the Live Aquaria Diver's Den
 
-## Uses
+## Prerequisites
+- python >= 3.10  
+- urllib
 - pandas
 - matplotlib
+
+## Usage
+`> python main.py`

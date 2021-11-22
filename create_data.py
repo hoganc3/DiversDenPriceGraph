@@ -1,14 +1,14 @@
 '''Functions For Getting And Creating Usable Data'''
-
 import urllib.request
 
-def get_data(page_url):
+def get_data(url):
     '''get_data fetches data from a site
 
     :URL: The url to scrape
     :return: list of page source seperated by line
     '''
-    with urllib.request.urlopen(page_url) as file:
+
+    with urllib.request.urlopen(url) as file:
         text = file.read()
     return text.decode("utf-8").split('\n')
 
@@ -42,11 +42,12 @@ def fix_string(my_list):
     for i, string in enumerate(my_list):
         mask = (f'[{i}]')
         words = ['["price"]', '["name"]', '"',
-                 ';', 'gtm_categories', '\r', '=',"\\", mask]
+                 ';', 'gtm_categories', '\r', '=', "\\", mask]
         for word in words:
             if word in string:
                 my_list[i] = my_list[i].replace(word, '').strip()
     return my_list
+
 
 def arr_to_int(my_list):
     '''arr_to_int makes all elements in list a float

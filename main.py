@@ -50,7 +50,7 @@ def prompt():
             return page_list[answer]
 
 
-def display_data():
+def display_data(names, price):
     '''Creates and displays data graph
 
     :names: List of item name
@@ -74,10 +74,18 @@ def display_data():
     plt.show()
 
 
-URL = prompt()
-lines = cd.get_data(URL)
+def main():
+    '''main runs the program'''
 
-names = cd.create_lists(lines, "name")
-price = cd.create_lists(lines, "price")
-price = cd.arr_to_int(price)
-display_data()
+    url = prompt()
+    lines = cd.get_data(url)
+
+    names = cd.create_lists(lines, "name")
+    price = cd.create_lists(lines, "price")
+    price = cd.arr_to_int(price)
+
+    display_data(names, price)
+
+
+if __name__ == '__main__':
+    main()
