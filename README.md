@@ -7,8 +7,3 @@
 - urllib
 - pandas
 - matplotlib
-
-## Demo
-`> python main.py`
-
-![prompt](.\_images\demoPrompt.png)
