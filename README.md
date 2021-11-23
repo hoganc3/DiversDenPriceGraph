@@ -7,3 +7,6 @@
 - urllib
 - pandas
 - matplotlib
+
+## Demo
+![Demo Gif](./_images/demo.gif)

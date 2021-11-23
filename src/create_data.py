@@ -26,8 +26,6 @@ def create_lists(lines, mask_string, my_list=None):
     for string in lines:
         if mask in string:
             my_list.append(string)
-        else:
-            pass
     fix_string(my_list)
     return my_list
 
@@ -54,6 +52,5 @@ def arr_to_int(my_list):
     :my_list: list to fix
     :return: fixed list
     '''
-    for i, string in enumerate(my_list):
-        my_list[i] = float(string)
+    my_list = [float(string) for string in my_list]
     return my_list
