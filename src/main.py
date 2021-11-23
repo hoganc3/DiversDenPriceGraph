@@ -79,11 +79,9 @@ def main():
 
     url = prompt()
     lines = cd.get_data(url)
-
     names = cd.create_lists(lines, "name")
     price = cd.create_lists(lines, "price")
     price = cd.arr_to_int(price)
-
     display_data(names, price)
 
 
