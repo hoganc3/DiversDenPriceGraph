@@ -9,4 +9,4 @@
 - matplotlib
 
 ## Demo
-![Demo Gif](../_images/demo.gif)
+![Demo Gif](./_images/demo.gif)
