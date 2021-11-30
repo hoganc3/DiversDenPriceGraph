@@ -74,7 +74,6 @@ def display_data(names, price):
 
 def main():
     '''main runs the program'''
-
     url = prompt()
     lines = cd.get_data(url)
     names = cd.create_lists(lines, "name")
