@@ -23,9 +23,7 @@ def create_lists(lines, mask_string, my_list=None):
     if my_list is None:
         my_list = []
     mask = (f'["{mask_string}"]')
-    for string in lines:
-        if mask in string:
-            my_list.append(string)
+    my_list = [string for string in lines if mask in string]
     fix_strings(my_list)
     return my_list
 
