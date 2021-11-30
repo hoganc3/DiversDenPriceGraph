@@ -10,3 +10,7 @@
 
 ## Demo
 ![Demo Gif](./_images/demo.gif)
+
+## Credits
+Aria Hogan - hoganc3@wit.edu
+Vianne Shao - shaov@wit.edu

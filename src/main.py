@@ -14,7 +14,6 @@ def prompt():
         "Freshwater": "https://www.liveaquaria.com/divers-den/category/11/freshwater",
         "Betta Fish": "https://www.liveaquaria.com/divers-den/category/12/betta-fish",
         "Inverts": "https://www.liveaquaria.com/divers-den/category/4/inverts",
-        "Clams": "https://www.liveaquaria.com/divers-den/category/1/clams",
         "Maricultured Corals":
             "https://www.liveaquaria.com/divers-den/category/6/maricultured-corals",
         "Aquacultured Corals":
@@ -33,7 +32,6 @@ def prompt():
     \t- Freshwater
     \t- Betta Fish
     \t- Inverts
-    \t- Clams
     \t- Maricultured Corals
     \t- Aquacultured Corals
     \t- Soft Corals
