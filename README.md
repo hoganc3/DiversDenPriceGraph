@@ -14,7 +14,7 @@ Project created for Network Programming final project.
 ![Demo Gif](./_images/demo1.gif)
 
 ## Installation
-Make sure you have the python modules installed.
+Make sure you have the python modules installed.<br /><br />
 
 Save project onto your own system and run it directly from the source folder
 
@@ -23,5 +23,5 @@ Aria Hogan - hoganc3@wit.edu
 Vianne Shao - shaov@wit.edu
 
 ## 📝 License
-Copyright © 2021 Aria Hogan and Vianne Shao.
+Copyright © 2021 Aria Hogan and Vianne Shao.<br />
 This project is [MIT](https://github.com/hoganc3/DiversDenPriceGraph/blob/main/LICENSE) licensed.
