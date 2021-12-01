@@ -14,12 +14,12 @@ Project created for Network Programming final project.
 ![Demo Gif](./_images/demo1.gif)
 
 ## Installation
-Make sure you have the python modules installed.<br /><br />
+Make sure you have the python modules installed.<br />
 
 Save project onto your own system and run it directly from the source folder
 
 ## 🤝 Credits
-Aria Hogan - hoganc3@wit.edu
+Aria Hogan - hoganc3@wit.edu<br />
 Vianne Shao - shaov@wit.edu
 
 ## 📝 License
