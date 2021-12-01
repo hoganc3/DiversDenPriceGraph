@@ -10,7 +10,7 @@ Project created for Network Programming final project.
 - pandas
 - matplotlib
 
-## ![✨](https://media4.giphy.com/media/FqXs12BQ6JkIJxBEqI/giphy.gif?cid=790b76112ad81041dbd1a36295c25b49b53613b4a290734e&rid=giphy.gif&ct=g, width=10px) Demo
+## ✨ Demo
 ![Demo Gif](./_images/demo.gif)
 
 ## Installation
