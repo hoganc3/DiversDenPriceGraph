@@ -11,7 +11,7 @@ Project created for Network Programming final project.
 - matplotlib
 
 ## ✨ Demo
-![Demo Gif](./_images/demo.gif)
+![Demo Gif](./_images/demo1.gif)
 
 ## Installation
 Make sure you have the python modules installed.
