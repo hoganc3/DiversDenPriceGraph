@@ -68,7 +68,6 @@ def display_data(names, price):
     data_frame.plot(kind='scatter', x="Name", y="Price")
     plt.xticks(rotation=90)
     plt.tight_layout()
-    plt.subplots_adjust(top=.98, left=.05, right=.98)
     plt.show()
 
 
